@@ -1,0 +1,370 @@
+/* vars */
+:root{
+    --main-color:rgba(255,237,163,1.0);
+    --header-color:rgba(41,64,211,1.0);
+    --font-color: rgba(255,255,255,0.9);
+    --color-footer: rgba(57,169,203,1.0);
+  
+}
+
+/* smartphone size 320px and 375px */
+
+@media only screen
+    and(min-device-width: 320px)
+    and(max-device-width:568px) 
+    and (-webkit-min-device-pixel-ratio: 2) { 
+        
+    section{
+        color: var(--font-color);
+        background-image: url(../img/Animated\ Shape.svg);
+        background-size: cover;
+        overflow: hidden;
+        background: linear-gradient(0.518deg, rgb(0,0,0)) ;
+        background-size: cover !important;    
+    }
+    .circle_photo{
+        display:none;
+    }
+
+    .github{
+        margin: 0 70% 0 0
+    }
+
+    .buttons {
+        margin: 10%;
+        text-align: center;
+    }
+        
+        a {
+            text-decoration: none;
+            color: rgba(255,255,255,1.0);
+        }
+        
+        a:hover{ 
+            color: rgba(255,255,255,1.0);
+        }
+        
+        
+        .btn-hover {
+            width: 35%;
+            font-size: 16px;
+            font-weight: 600;
+            color: rgba(255,255,255,1.0);
+            cursor: pointer;
+            margin: 20px;
+            height: 55px;
+            text-align:center;
+            border: none;
+            background-size: 300% 100%;
+        
+            border-radius: 50px;
+            moz-transition: all .4s ease-in-out;
+            -o-transition: all .4s ease-in-out;
+            -webkit-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+        }
+        
+        .btn-hover:hover {
+            background-position: 100% 0;
+            moz-transition: all .4s ease-in-out;
+            -o-transition: all .4s ease-in-out;
+            -webkit-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+        }
+        
+        .btn-hover:focus {
+            outline: none;
+        }
+        
+        .btn-hover.color-8 {
+            background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+            box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+        }
+        header{
+            background-color: var(--color-footer);
+            box-shadow: 0px 9px 15px 0px rgba(0,0,0,0.3);
+            -webkit-box-shadow: 0px 9px 15px 0px rgba(0,0,0,0.3);
+            -moz-box-shadow: 0px 9px 15px 0px rgba(0,0,0,0.3);
+        }
+
+}
+
+@media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 414px) 
+    and (-webkit-min-device-pixel-ratio: 2) { 
+
+        .github{
+            margin: 0 70% 0 0
+        }
+
+
+    .img-circle{
+        width: 42%;
+        height: 80%;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    .buttons {
+        margin: 10%;
+        text-align: center;
+    }
+        
+        a {
+            text-decoration: none;
+            color: rgba(255,255,255,1.0);
+        }
+        
+        a:hover{ 
+            color: rgba(255,255,255,1.0);
+        }
+        
+        
+        .btn-hover {
+            width: 35%;
+            font-size: 16px;
+            font-weight: 600;
+            color: rgba(255,255,255,1.0);
+            cursor: pointer;
+            margin: 20px;
+            height: 55px;
+            text-align:center;
+            border: none;
+            background-size: 300% 100%;
+        
+            border-radius: 50px;
+            moz-transition: all .4s ease-in-out;
+            -o-transition: all .4s ease-in-out;
+            -webkit-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+        }
+        
+        .btn-hover:hover {
+            background-position: 100% 0;
+            moz-transition: all .4s ease-in-out;
+            -o-transition: all .4s ease-in-out;
+            -webkit-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+        }
+        
+        .btn-hover:focus {
+            outline: none;
+        }
+        
+        .btn-hover.color-8 {
+            background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+            box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+        }
+        
+        /* footer */
+        
+        footer{
+            background-color: var(--color-footer)
+        }
+        
+        
+        
+        .buttons {
+            margin: 10%;
+            text-align: center;
+        }
+        
+        a {
+            text-decoration: none;
+            color: rgba(255,255,255,1.0);
+        }
+        
+        a:hover{ 
+            color: rgba(255,255,255,1.0);
+        }
+        
+        
+        .btn-hover {
+        width: 35%;
+        font-size: 16px;
+        font-weight: 600;
+        color: rgba(255,255,255,1.0);
+        cursor: pointer;
+        margin: 20px;
+        height: 55px;
+        text-align:center;
+        border: none;
+        background-size: 300% 100%;
+
+        border-radius: 50px;
+        moz-transition: all .4s ease-in-out;
+              -o-transition: all .4s ease-in-out;
+              -webkit-transition: all .4s ease-in-out;
+              transition: all .4s ease-in-out;
+          }
+          
+          .btn-hover:hover {
+              background-position: 100% 0;
+              moz-transition: all .4s ease-in-out;
+              -o-transition: all .4s ease-in-out;
+              -webkit-transition: all .4s ease-in-out;
+              transition: all .4s ease-in-out;
+          }
+          
+          .btn-hover:focus {
+              outline: none;
+          }
+          
+          .btn-hover.color-8 {
+              background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+              box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+          }
+  
+
+header{
+    background-color: var(--color-footer);
+    box-shadow: 0px 9px 15px 0px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0px 9px 15px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 9px 15px 0px rgba(0,0,0,0.3);
+}
+body{
+    background-color: var(--header-color);
+
+}
+section{
+    color: var(--font-color);
+    background-image: url(../img/Animated\ Shape.svg);
+    background-size: cover;
+    overflow: hidden;
+    background: linear-gradient(0.518deg, rgb(0,0,0)) ;
+    background-size: cover !important;
+
+}
+
+}
+
+/* iphone 12 pro max */
+
+@media only screen and (min-width: 428)
+                    and(max-width:429) {
+                        body{
+                            background-color: var(--header-color);
+                        
+                        }
+    
+}
+
+@media only screen 
+and (min-device-width: 1200px) 
+and (max-device-width: 1600px) 
+and (-webkit-min-device-pixel-ratio: 2) { 
+
+    .buttons {
+        margin: 10%;
+        text-align: center;
+      }
+      
+    a {
+        text-decoration: none;
+        color: rgba(255,255,255,1.0);
+      }
+      
+      a:hover{ 
+        color: rgba(255,255,255,1.0);
+      }
+      
+      
+      .btn-hover {
+        width: 35%;
+        font-size: 16px;
+        font-weight: 600;
+        color: rgba(255,255,255,1.0);
+        cursor: pointer;
+        margin: 20px;
+        height: 55px;
+        text-align:center;
+        border: none;
+        background-size: 300% 100%;
+      
+          border-radius: 50px;
+          moz-transition: all .4s ease-in-out;
+          -o-transition: all .4s ease-in-out;
+          -webkit-transition: all .4s ease-in-out;
+          transition: all .4s ease-in-out;
+      }
+      
+      .btn-hover:hover {
+          background-position: 100% 0;
+          moz-transition: all .4s ease-in-out;
+          -o-transition: all .4s ease-in-out;
+          -webkit-transition: all .4s ease-in-out;
+          transition: all .4s ease-in-out;
+      }
+      
+      .btn-hover:focus {
+          outline: none;
+      }
+      
+      .btn-hover.color-8 {
+          background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+          box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+      }
+      
+      /* footer */
+      
+      footer{
+          background-color: var(--color-footer)
+      }
+      
+      
+      main{
+          background-color: gray;
+        }
+        
+        .buttons {
+            margin: 10%;
+            text-align: center;
+        }
+        
+        a {
+            text-decoration: none;
+            color: rgba(255,255,255,1.0);
+        }
+        
+        a:hover{ 
+            color: rgba(255,255,255,1.0);
+        }
+        
+        
+        .btn-hover {
+            width: 35%;
+            font-size: 16px;
+            font-weight: 600;
+            color: rgba(255,255,255,1.0);
+            cursor: pointer;
+            margin: 20px;
+            height: 55px;
+            text-align:center;
+            border: none;
+            background-size: 300% 100%;
+            
+            border-radius: 50px;
+            moz-transition: all .4s ease-in-out;
+            -o-transition: all .4s ease-in-out;
+            -webkit-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+        }
+        
+        .btn-hover:hover {
+            background-position: 100% 0;
+            moz-transition: all .4s ease-in-out;
+            -o-transition: all .4s ease-in-out;
+            -webkit-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+        }
+        
+        .btn-hover:focus {
+            outline: none;
+        }
+        
+        .btn-hover.color-8 {
+            background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+            box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+        }
+    }
+

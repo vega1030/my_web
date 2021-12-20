@@ -1,0 +1,247 @@
+/* smartphone size 320px and 375px */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    header{
+        width: 100%;
+        height:9vh;
+        display:flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items:center;
+        position: sticky;
+        top:0;
+    }
+
+    .navbar{
+        width:100%;
+        height:50%;
+        display:flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items:center;
+        
+    }
+
+    .navbar___list{
+        width:100%;
+        height:100%;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:space-around;
+        flex-wrap: center;
+        
+    }
+
+    li{
+        list-style:none;
+    }
+
+        /* image */
+
+        .circle_photo{
+            display: none;
+        }
+    
+    .buttons{
+        margin: 0 0 9% 0
+    }
+    
+    .content{
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        align-content: center;
+        justify-content: flex-start;
+        width:100%;
+        height:50%;
+        margin: 3% 0 0 0;
+        flex-wrap: center;
+    }
+    
+        .content___presentation{
+            width:100%;
+            height:50%;
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            justify-content:flex-start;
+            margin: 10%;
+        }
+        
+        .content___presentation___work{
+            width:100%;
+            height: 15vh;
+            display:flex;
+            flex-wrap: wrap;
+            align-items:center;
+            justify-content:center;
+            text-align:center;
+        }
+
+    .content___presentation___position{
+        text-align:center;
+    }
+    
+        footer{
+            width: 100%;
+            height:9vh;
+    
+        }
+
+        body{
+            height: 100vh;
+            width: 100%;
+        }
+        main{
+            height: 83%;
+        }
+
+        .buttons{
+            width: 87%;
+            height: 35%;
+            display:flex;
+        }
+        
+
+}
+
+/* smartphone size 375px and 414px */
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* header */
+
+    header{
+        width: 100%;
+        height:9%;
+        display:flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items:center;
+        position: sticky;
+        top:0;
+    }
+
+    .navbar{
+        width:100%;
+        height:100%;        
+    }
+    .navbar___list{
+        width:100%;
+        height:100%;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:space-around
+    }
+
+    li{
+        list-style:none;
+    }
+
+    /* image */
+    
+        .circle_photo{
+            margin: 7% 0 0 0;
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+        }
+
+        .content_circle_photo{
+            display:flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items:center;
+        }
+
+    .img-circle{
+        width: 50%;
+        height: 50%;
+    }
+
+     body{
+        width: 100%;
+        height: 100vh;
+   } 
+   section{
+        width: 100%;
+        height: 100%;
+   }  
+
+.content{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: flex-start;
+    width:100%;
+    height:45%;
+    margin: 5% 0 0 0
+}
+
+    .content___presentation{
+        width:80%;
+        height:45%;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+    
+    .content___presentation___work{
+        width:100%;
+        height: 15vh;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        text-align:center;
+
+    }
+
+
+    footer{
+        width: 100%;
+        height:10vh;
+
+    }
+    .buttons{
+        width: 80%;
+        height: 40%;
+    }
+
+}
+
+/* Smartphone: 320-384 */
+
+
+/* Laptop */
+@media screen 
+and (min-device-width: 1200px) 
+and (max-device-width: 1600px) 
+and (-webkit-min-device-pixel-ratio: 2) { 
+
+    main{
+        display: flex;
+        flex-direction: row;
+    }
+}
