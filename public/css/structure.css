@@ -1,15 +1,17 @@
 /* smartphone size 320px and 375px */
 
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    
+@media  
+(max-device-width:360px) 
+and (-webkit-min-device-pixel-ratio: 2){ 
+
     *{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
+
+ 
+
     header{
         width: 100%;
         height:9vh;
@@ -86,6 +88,7 @@
             align-items:center;
             justify-content:center;
             text-align:center;
+            padding: 1%;
         }
 
     .content___presentation___position{
@@ -121,6 +124,8 @@
   and (min-device-width: 375px) 
   and (max-device-width: 414px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
+
+    
 
     *{
         margin: 0;
